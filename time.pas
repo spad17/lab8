@@ -5,14 +5,14 @@
   begin
     if N mod 400 <> 0 then
     begin
-      Println($'{N} год не високосный');
+      Println($'В {N} году 365 дней ');
       exit;
     end
     else 
-      Println($'{N} год високосный');
+      Println($'В {N} году 366 дней ');
   end
   else if n mod 4 = 0 then
-    Println($'{N} год високосный')
+    Println($'В {N} году 366 дней ')
   else 
-    Println($'{N} год не високосный');
+    Println($'В {N} году 365 дней ');
 end.
